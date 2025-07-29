@@ -45,27 +45,27 @@ export default function HomePage() {
               <img src="/images/profile.jpg" alt="鈴木琢矢のプロフィール写真" className="w-full h-full object-cover" />
             </div>
             <h1 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
-              売れる集客のリアルを語る
+              現役で無形商品を販売する
               <br />
-              <span className="text-blue-600">マーケター</span>
+              <span className="text-blue-600">実践派マーケッター</span>
             </h1>
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-              広告費500万円を溶かした失敗から学んだ
+              自社コンサル商品で年商5,000万円を達成しながら
               <br />
-              「売れる導線設計の本質」をお伝えします
+              同時に事業者の集客をサポートする二刀流スタイル
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary" className="bg-blue-100 text-blue-800">
-                <Award className="w-3 h-3 mr-1" />
-                年商5,000万円達成
-              </Badge>
               <Badge variant="secondary" className="bg-green-100 text-green-800">
+                <Award className="w-3 h-3 mr-1" />
+                現役コンサル年商5,000万円
+              </Badge>
+              <Badge variant="secondary" className="bg-blue-100 text-blue-800">
                 <Users className="w-3 h-3 mr-1" />
-                生徒数150名突破
+                プレイヤー兼サポーター
               </Badge>
               <Badge variant="secondary" className="bg-purple-100 text-purple-800">
                 <Target className="w-3 h-3 mr-1" />
-                事業者ファースト集客
+                多業種集客実績
               </Badge>
             </div>
           </div>
@@ -80,8 +80,11 @@ export default function HomePage() {
               <CardTitle className="text-2xl text-slate-800">はじめに</CardTitle>
             </CardHeader>
             <CardContent className="prose prose-slate max-w-none">
+              <p className="text-slate-700 leading-relaxed font-medium text-lg mb-4">
+                ハーゲンダッツとチョコレートを愛する<span className="text-blue-600">甘党マーケッター</span>です。
+              </p>
               <p className="text-slate-700 leading-relaxed">
-                こんにちは。ページをご覧いただきありがとうございます。このページは、名刺交換後に「どんな人物なのか？」「どんなことをやっているのか？」「何が提供できるのか？」をもっと深く知っていただくために作成しました。
+                甘いものを食べながら考える集客戦略が、なぜか結果を出してしまいます。
               </p>
               <p className="text-slate-700 leading-relaxed">
                 私は、広告代理店でもなければ、コンサル専門業でもありません。自分自身が"商品オーナー"として500万円以上の広告費を溶かし、失敗を繰り返しながらも試行錯誤の末に年商5,000万円のビジネスを構築してきました。
@@ -353,19 +356,59 @@ export default function HomePage() {
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-2xl font-bold text-center mb-8 text-slate-800">成果事例・導入実績</h2>
           <div className="grid md:grid-cols-2 gap-6">
-            <Card className="shadow-lg">
+            <Card className="shadow-lg border-2 border-green-200">
               <CardHeader>
-                <CardTitle className="text-lg text-blue-600">自社恋愛塾</CardTitle>
+                <CardTitle className="text-lg text-blue-600 flex items-center">
+                  <Award className="w-5 h-5 mr-2" />
+                  自社恋愛塾（高利益モデル確立）
+                </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between">
-                    <span className="text-slate-700">年商</span>
-                    <span className="font-bold text-2xl text-green-600">5,000万円</span>
+                <div className="space-y-4">
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="text-center p-3 bg-green-50 rounded-lg">
+                      <div className="font-bold text-2xl text-green-600">5,300万円</div>
+                      <div className="text-sm text-slate-600">年商</div>
+                    </div>
+                    <div className="text-center p-3 bg-blue-50 rounded-lg">
+                      <div className="font-bold text-xl text-blue-600">100万円+</div>
+                      <div className="text-sm text-slate-600">高単価コンサル</div>
+                    </div>
                   </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-slate-700">生徒数</span>
-                    <span className="font-bold text-xl text-blue-600">150名突破</span>
+
+                  <div className="space-y-2 text-sm">
+                    <div className="flex items-center">
+                      <CheckCircle className="w-4 h-4 mr-2 text-green-600 flex-shrink-0" />
+                      <span className="text-slate-700">
+                        <strong>Utage活用:</strong> 完全自動化スキーム構築
+                      </span>
+                    </div>
+                    <div className="flex items-center">
+                      <CheckCircle className="w-4 h-4 mr-2 text-green-600 flex-shrink-0" />
+                      <span className="text-slate-700">
+                        <strong>サブスク収益:</strong> 月額安定収入モデル
+                      </span>
+                    </div>
+                    <div className="flex items-center">
+                      <CheckCircle className="w-4 h-4 mr-2 text-green-600 flex-shrink-0" />
+                      <span className="text-slate-700">
+                        <strong>高利益率:</strong> 粗利80%超の収益構造
+                      </span>
+                    </div>
+                    <div className="flex items-center">
+                      <CheckCircle className="w-4 h-4 mr-2 text-green-600 flex-shrink-0" />
+                      <span className="text-slate-700">
+                        <strong>継続率:</strong> 90%以上の顧客満足度
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="mt-4 p-3 bg-slate-50 rounded-lg">
+                    <p className="text-xs text-slate-600 text-center">
+                      教育→販売→継続の完全自動化により
+                      <br />
+                      労働集約型から脱却した高収益モデル
+                    </p>
                   </div>
                 </div>
               </CardContent>
@@ -397,20 +440,42 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="py-16 px-4 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+      <section id="contact" className="py-16 px-4 bg-gradient-to-r from-green-500 to-green-600 text-white">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl font-bold mb-4">無料プレゼント</h2>
+          <h2 className="text-3xl font-bold mb-8">こんなお困りごとはありませんか？</h2>
+          <div className="grid md:grid-cols-2 gap-4 mb-8 text-left">
+            <div className="bg-white/10 p-4 rounded-lg">
+              <p className="text-lg">💸 広告費をかけても売上に繋がらない</p>
+            </div>
+            <div className="bg-white/10 p-4 rounded-lg">
+              <p className="text-lg">📉 集客はできるが成約率が低い</p>
+            </div>
+            <div className="bg-white/10 p-4 rounded-lg">
+              <p className="text-lg">🔄 価格競争に巻き込まれて利益が出ない</p>
+            </div>
+            <div className="bg-white/10 p-4 rounded-lg">
+              <p className="text-lg">⏰ 集客に時間を取られて本業に集中できない</p>
+            </div>
+            <div className="bg-white/10 p-4 rounded-lg">
+              <p className="text-lg">🤔 何から始めればいいかわからない</p>
+            </div>
+            <div className="bg-white/10 p-4 rounded-lg">
+              <p className="text-lg">📱 オンライン集客の仕組みを作りたい</p>
+            </div>
+          </div>
           <p className="text-xl mb-8 opacity-90">
-            「広告で失敗しないための7原則」PDFを
+            一つでも当てはまる方は
             <br />
-            LINE登録者限定で無料プレゼント中
+            お気軽にLINEでご相談ください
           </p>
           <div className="space-y-4">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-3">
-              <MessageCircle className="w-5 h-5 mr-2" />
-              LINE登録して受け取る
+            <Button asChild size="lg" className="bg-white text-green-600 hover:bg-gray-100 text-lg px-8 py-3">
+              <Link href="https://line.me/ti/p/Ik7W-cW-br" target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="w-5 h-5 mr-2" />
+                LINEで相談する
+              </Link>
             </Button>
-            <p className="text-sm opacity-80">売れない広告を作らないための鉄則を、現場経験ベースでまとめました</p>
+            <p className="text-sm opacity-80">まずはお気軽にお声がけください</p>
           </div>
         </div>
       </section>
@@ -464,9 +529,11 @@ export default function HomePage() {
           </p>
           <p className="text-lg text-slate-700 mb-8">ご縁があれば、ぜひ一度お話ししましょう。</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-              <MessageCircle className="w-5 h-5 mr-2" />
-              LINEで相談する
+            <Button asChild size="lg" className="bg-green-500 hover:bg-green-600 text-white">
+              <Link href="https://line.me/ti/p/Ik7W-cW-br" target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="w-5 h-5 mr-2" />
+                LINEで相談する
+              </Link>
             </Button>
             <Button size="lg" variant="outline" className="border-slate-300 bg-transparent">
               <Mail className="w-5 h-5 mr-2" />
