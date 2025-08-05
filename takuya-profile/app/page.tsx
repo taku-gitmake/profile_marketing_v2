@@ -108,7 +108,7 @@ export default function HomePage() {
                   <h3 className="font-semibold text-slate-800 mb-2">基本情報</h3>
                   <div className="space-y-2 text-slate-700">
                     <p>
-                      <span className="font-medium">名前：</span>鈴木 琢矢（すずき たくや）
+                      <span className="font-medium">名前：</span>鈴木 拓哉（すずき たくや）
                     </p>
                     <p>
                       <span className="font-medium">職業：</span>マーケティング＆心理コーチ /
@@ -547,7 +547,7 @@ export default function HomePage() {
       <footer className="bg-slate-800 text-white py-8 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center">
-            <h3 className="text-xl font-bold mb-4">鈴木 琢矢</h3>
+            <h3 className="text-xl font-bold mb-4">鈴木 拓哉</h3>
             <p className="text-slate-300 mb-4">マーケティング＆心理コーチ</p>
             <div className="flex justify-center space-x-6 text-sm">
               <Link href="mailto:example@example.com" className="hover:text-blue-400 flex items-center">
@@ -560,7 +560,7 @@ export default function HomePage() {
               </Link>
             </div>
             <Separator className="my-6 bg-slate-600" />
-            <p className="text-slate-400 text-sm">© 2024 鈴木琢矢. All rights reserved.</p>
+            <p className="text-slate-400 text-sm">© 2024 鈴木拓哉. All rights reserved.</p>
           </div>
         </div>
       </footer>
