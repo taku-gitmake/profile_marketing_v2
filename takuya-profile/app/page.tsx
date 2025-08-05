@@ -24,7 +24,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-xl font-bold text-slate-800">鈴木 琢矢</h1>
+              <h1 className="text-xl font-bold text-slate-800">鈴木 拓哉</h1>
               <p className="text-sm text-slate-600">マーケティング＆心理コーチ</p>
             </div>
             <Button asChild className="bg-blue-600 hover:bg-blue-700">
